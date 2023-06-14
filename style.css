@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;400;500;600&display=swap'); /* header */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); /* sidebar */
+/* @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap'); /* cell */
+/* font-family: 'Geologica', sans-serif; */
+/* font-family: 'Varela Round', sans-serif; */
+/* font-family: 'Hind', sans-serif; - */
+/* font-family: 'Roboto Mono', monospace; */
+
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #D4DBE2;
+}
+
+.head-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.head-btn {
+    color: black;
+    font-size: 17px;
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.head-text-logo {
+    color: black;
+    font-size: 25px;
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.sign {
+    color: white;
+    margin-left: 150px;
+    background-color: #7B586B;
+    padding: 4px 25px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px #443f42;
+}
+
+.page-info {
+    display: grid;
+    grid-template-areas: 
+    'sidebar core-list';
+    grid-gap: 10px;
+    /* grid-template-columns: 1fr 2fr; */
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    width: 200px;
+}
+
+.core-list {
+    grid-area: core-list;
+    width: 650px;
+}
+
+/* .item {
+    border: 2px solid black;
+} */
+
+.nav-btn {
+    color: black;
+    font-size: 17px;
+    font-family: 'Geologica', sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.nav-cont {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #E5E3E4;
+    box-shadow: 0px 4px 10px #858585;
+}
+
+.p-Categories {
+    color: black;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.img-cut {
+    width: 18px;
+    height: auto;
+}
+
+.align-fix {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.align-fix-bottom {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.core-cell {
+    display: flex;
+    background-color: #E5E3E4;
+    box-shadow: 0px 4px 10px #858585;
+    border-radius: 15px;
+    height: 130px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.core-cell-cont {
+    display: flex;
+    align-items: center;
+}
+
+.core-cell-minu {
+    display: flex;
+    background-color: #E5E3E4;
+    box-shadow: 0px 4px 10px #858585;
+    border-radius: 15px;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-bg {
+    display: flex;
+    height: 35px;
+    width: 270px;
+    background-color: #7B586B;
+    margin-left: 15px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 5px #684156;
+}
+
+.filter-name {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10px;
+}
+
+.cell-img {
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+    padding: 0;
+    margin-left: 15px;  
+}
+
+.cell-name {
+    color: black;
+    font-size: 23px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cell-author {
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell-desc-text {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.cell-small-img {
+    width: 15px;
+    height: auto;
+}
+
+.cell-bottom-text {
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.ref {
+    text-decoration: none;
+    color: black;
+}
